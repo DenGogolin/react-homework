@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es6"
+  }
+}
