@@ -3,6 +3,6 @@
   "rules": {
     "ordered-imports": false,
     "trailing-comma": false,
-	"no-implicit-dependencies": [true, "dev"]
+    "no-implicit-dependencies": [true, "dev"]
   }
 }

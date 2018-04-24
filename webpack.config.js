@@ -12,7 +12,7 @@ module.exports = {
   devtool: "cheap-module-source-map",
   output: {
     path: path.join(__dirname, pathConst.out),
-    filename: "[name]/index.js"
+    filename: "[name].js"
   },
 
   resolve: {
