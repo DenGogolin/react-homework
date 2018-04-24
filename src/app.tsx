@@ -1,14 +1,20 @@
 import * as React from "react";
 import { hot } from "react-hot-loader";
-import { Dropdown } from "./components/dropdown";
-import { Item } from "./components/item";
+import { ISearchViewModel } from "./view-model";
+import { MovieSearch } from "./component/search";
+
+const headerProps: ISearchViewModel = {
+  appName: "netflixroulette",
+  filterText: "SEARCH BY",
+  searchBtnText: "Search",
+  title: "FIND YOUR MOVIE"
+};
 
 export class AppRootComponent extends React.Component {
   public render() {
     return (
       <div>
-        <Item />
-        <Dropdown />
+        <MovieSearch {...headerProps} />
       </div>
     );
   }
