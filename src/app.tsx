@@ -2,12 +2,13 @@ import * as React from "react";
 import { hot } from "react-hot-loader";
 import { ISearchViewModel } from "./view-model";
 import { MovieSearch } from "./component/search";
+import { SearchResult } from "./component/search-result";
 
 const headerProps: ISearchViewModel = {
   appName: "netflixroulette",
-  filterText: "SEARCH BY",
+  filterText: "Search by",
   searchBtnText: "Search",
-  title: "FIND YOUR MOVIE"
+  title: "Find your movie"
 };
 
 export class AppRootComponent extends React.Component {
@@ -15,6 +16,7 @@ export class AppRootComponent extends React.Component {
     return (
       <div>
         <MovieSearch {...headerProps} />
+        <SearchResult />
       </div>
     );
   }
