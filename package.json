@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
+    "prod": "node ./server",
     "build": "webpack --mode production",
     "watch": "webpack --mode development -w",
     "test": "jest"
@@ -47,6 +48,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
+    "express": "^4.16.3",
     "html-webpack-plugin": "^3.1.0",
     "jest": "^22.4.3",
     "jest-preset-typescript": "^1.0.1",
