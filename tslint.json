@@ -3,6 +3,9 @@
   "rules": {
     "ordered-imports": false,
     "trailing-comma": false,
-    "no-implicit-dependencies": [true, "dev"]
+    "no-implicit-dependencies": [true, "dev"],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "jsx-key": false
   }
 }
