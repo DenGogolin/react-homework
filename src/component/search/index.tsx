@@ -1,8 +1,8 @@
 import * as React from "react";
-import { ISearchViewModel } from "../../view-model";
 import { SearchButton } from "./button";
 import { SearchFilter } from "./filter";
 import { SearchBox } from "./search-box";
+import { ISearchViewModel } from "../../view-model/search";
 
 export const MovieSearch = (props: ISearchViewModel) => (
   <div>

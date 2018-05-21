@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ISearchResultItemViewModel } from "../../view-model";
+import { ISearchResultItemViewModel } from "../../view-model/search-result-item";
 
 export const Item = (props: ISearchResultItemViewModel) => (
   <div>

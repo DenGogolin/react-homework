@@ -1,14 +1,13 @@
 import * as React from "react";
 import { hot } from "react-hot-loader";
-import {
-  ISearchViewModel,
-  ISearchResultViewModel,
-  ISearchResultItemViewModel
-} from "./view-model";
+
 import { MovieSearch } from "./component/search";
 import { SearchResult } from "./component/search-result";
 
 import { movies } from "./mock/movies";
+import { ISearchViewModel } from "./view-model/search";
+import { ISearchResultViewModel } from "./view-model/search-result";
+import { ISearchResultItemViewModel } from "./view-model/search-result-item";
 const headerProps: ISearchViewModel = {
   appName: "netflixroulette",
   filterText: "Search by",

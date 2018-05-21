@@ -1,7 +1,7 @@
 import * as React from "react";
-import { ISearchResultViewModel } from "../../view-model";
 import { Item } from "./item";
 import { Sorting } from "./sorting";
+import { ISearchResultViewModel } from "../../view-model/search-result";
 
 export const SearchResult = (props: ISearchResultViewModel) => (
   <div>
