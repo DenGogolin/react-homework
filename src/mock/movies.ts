@@ -62,8 +62,10 @@ export const movies = {
       release_date: "1931-01-30",
       poster_path:
         "https://image.tmdb.org/t/p/w500/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
-      overview:
-        "City Lights is the first silent film that Charlie Chaplin directed after he established himself with sound accompanied films. The film is about a penniless man who falls in love with a flower girl. The film was a great success and today is deemed a cult classic.",
+      overview: `City Lights is the first silent film that Charlie Chaplin directed
+		after he established himself with sound accompanied films.
+		The film is about a penniless man who falls in love with a flower girl.
+		The film was a great success and today is deemed a cult classic.`,
       budget: 1500000,
       revenue: 19181,
       genres: ["Comedy", "Drama", "Romance"],
@@ -94,8 +96,8 @@ export const movies = {
       release_date: "1931-11-21",
       poster_path:
         "https://image.tmdb.org/t/p/w500/wB58wlBAr6484Wm6VyFDqSD8VOJ.jpg",
-      overview:
-        "Henry Frankenstein is a doctor who is trying to discover a way to make the dead walk. He succeeds and creates a monster that has to deal with living again.",
+      overview: `Henry Frankenstein is a doctor who is trying to discover a way to make the dead walk.
+		He succeeds and creates a monster that has to deal with living again.`,
       budget: 291000,
       revenue: 12000000,
       genres: ["Drama", "Horror", "Science Fiction"],
@@ -110,8 +112,9 @@ export const movies = {
       release_date: "1932-12-22",
       poster_path:
         "https://image.tmdb.org/t/p/w500/vSKpbZVvzqQcw6htiyEinbCY9vq.jpg",
-      overview:
-        "An ancient Egyptian priest called Imhotep is revived when an archaeological expedition finds his mummy and one of the archaeologists accidentally reads an ancient life-giving spell. Imhotep, escaping from the field site, goes in search for the reincarnation of the soul of his lover.",
+      overview: `An ancient Egyptian priest called Imhotep is revived when an archaeological expedition finds his mummy
+		and one of the archaeologists accidentally reads an ancient life-giving spell.
+		Imhotep, escaping from the field site, goes in search for the reincarnation of the soul of his lover.`,
       budget: 196000,
       revenue: 0,
       genres: ["Horror"],
@@ -126,8 +129,9 @@ export const movies = {
       release_date: "1933-04-07",
       poster_path:
         "https://image.tmdb.org/t/p/w500/vXInYahVp31uL8wZORckaoHq565.jpg",
-      overview:
-        "An adventure film about a film crew in search of a monster on a remote island. The crew finds King Kong and decides to take him back to New York as a money making spectacle. The film is a masterpiece of Stop-Motion in filmmaking history and inspired a line of King Kong films.",
+      overview: `An adventure film about a film crew in search of a monster on a remote island.
+		The crew finds King Kong and decides to take him back to New York as a money making spectacle.
+		The film is a masterpiece of Stop-Motion in filmmaking history and inspired a line of King Kong films.`,
       budget: 672000,
       revenue: 10000000,
       genres: ["Action", "Adventure", "Drama", "Horror"],
@@ -142,8 +146,13 @@ export const movies = {
       release_date: "1934-02-22",
       poster_path:
         "https://image.tmdb.org/t/p/w500/k63JqnFvkIGWGhjsqRiksZw2OSs.jpg",
-      overview:
-        "Ellie Andrews has just tied the knot with society aviator King Westley when she is whisked away to her father's yacht and out of King's clutches. Ellie jumps ship and eventually winds up on a bus headed back to her husband. Reluctantly she must accept the help of out-of- work reporter Peter Warne. Actually, Warne doesn't give her any choice: either she sticks with him until he gets her back to her husband, or he'll blow the whistle on Ellie to her father. Either way, Peter gets what he wants... a really juicy newspaper story!",
+      overview: `Ellie Andrews has just tied the knot with society aviator King Westley
+		when she is whisked away to her father's yacht and out of King's clutches.
+		Ellie jumps ship and eventually winds up on a bus headed back to her husband.
+		Reluctantly she must accept the help of out-of- work reporter Peter Warne. Actually,
+		Warne doesn't give her any choice: either she sticks with him until he gets her back to her husband,
+		or he'll blow the whistle on Ellie to her father.
+		Either way, Peter gets what he wants... a really juicy newspaper story!`,
       budget: 325000,
       revenue: 4500000,
       genres: ["Comedy", "Romance"],
@@ -158,8 +167,14 @@ export const movies = {
       release_date: "1935-06-01",
       poster_path:
         "https://image.tmdb.org/t/p/w500/9v283GWj9a0AC8wwC4zriNqY1lZ.jpg",
-      overview:
-        "Canadian Richard Hannay, residing in London, meets secret agent Annabella Smith immediately following a shots fired incident. She asks to go home with him. Back at Hannay's flat the mysterious woman confides that she fears for her life and is on a critical mission relating to protecting state air ministry secrets. Later that night assassins murder her. Believed by the police to be her killer, Hannay is forced to go on the run and flees to Scotland in a desperate attempt to see Annabella's mission through before it's too late. Along the way he chances upon beautiful Pamela, who unwillingly becomes his accomplice in the mission.",
+      overview: `Canadian Richard Hannay, residing in London,
+		meets secret agent Annabella Smith immediately following a shots fired incident.
+		She asks to go home with him. Back at Hannay's flat the mysterious woman confides
+		that she fears for her life and is on a critical mission relating to protecting state air ministry secrets.
+		Later that night assassins murder her. Believed by the police to be her killer,
+		Hannay is forced to go on the run and flees to Scotland in a desperate attempt to see Annabella's mission through
+		before it's too late. Along the way he chances upon beautiful Pamela,
+		who unwillingly becomes his accomplice in the mission.`,
       budget: 0,
       revenue: 0,
       genres: ["Action", "Thriller", "Mystery"],
