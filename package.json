@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DenisGogolinSD/react-homework.git"
+    "url": "git+https://github.com/DenGogolin/react-homework.git"
   },
   "author": "Denny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DenisGogolinSD/react-homework/issues"
+    "url": "https://github.com/DenGogolin/react-homework/issues"
   },
-  "homepage": "https://github.com/DenisGogolinSD/react-homework#readme",
+  "homepage": "https://github.com/DenGogolin/react-homework#readme",
   "dependencies": {
     "bootstrap": "~4.1.0",
     "lodash": "~4.17.5",
